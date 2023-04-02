@@ -1,12 +1,7 @@
 # Lessons. 
 
 This Branch includes the next lessons:
-60. ngModel
-61. Mostrar listado de personajes 
-62. Crear componentes hijos 
-63. @Input 
-64. Tarea con inputs y módulos 
-65. @Outputs y EventEmitter
+66. Bonus: Depuración de aplicación
 
 
 

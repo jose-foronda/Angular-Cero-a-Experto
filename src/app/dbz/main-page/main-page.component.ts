@@ -38,6 +38,7 @@ export class MainPageComponent {
    */
   public agregarNuevoPersonaje(argumento: Personaje) {
     console.log("Agregando nuevo personaje");
+   // debugger; // like a handwritten breakPoint. I tested it in Edge and Chrome
     this.personajes.push(argumento);
   }
 }
