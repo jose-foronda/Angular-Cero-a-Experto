@@ -1,3 +1,17 @@
+# Lessons. 
+
+This Branch includes the next lessons:
+60. ngModel
+61. Mostrar listado de personajes 
+62. Crear componentes hijos 
+63. @Input 
+64. Tarea con inputs y módulos 
+65. @Outputs y EventEmitter
+
+
+
+
+
 # Bases
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.

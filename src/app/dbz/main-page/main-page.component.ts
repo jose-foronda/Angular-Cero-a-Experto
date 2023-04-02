@@ -32,4 +32,12 @@ export class MainPageComponent {
     console.log(event);
     console.log(this.nuevo);
   }
+
+  /**
+   * agregarNuevoPersonaje
+   */
+  public agregarNuevoPersonaje(argumento: Personaje) {
+    console.log("Agregando nuevo personaje");
+    this.personajes.push(argumento);
+  }
 }
