@@ -10,26 +10,14 @@ import { DbzService } from '../services/dbz.service';
   templateUrl: './main-page.component.html',
   styleUrls: ['./main-page.component.css']
 })
-export class MainPageComponent {
-
-  // private dbzService: DbzService = [];
-
-  // constructor(dbzService: DbzService) {
-  //   this.dbzService = dbzService;
-  // }
+export class MainPageComponent { 
  
-  constructor(private dbzService: DbzService) { 
+  constructor( ) {  
   }
-
-
-  public personajes: Personaje[] = [{
-    nombre: 'Goku',
-    poder: 15000,
-  },
-  {
-    nombre: 'Vegeta',
-    poder: 7500,
-  }]
+ 
+  // constructor(private dbzService: DbzService) { 
+    
+  // }
 
   nuevo: Personaje = {
     nombre: '',
@@ -48,9 +36,9 @@ export class MainPageComponent {
   /**
    * agregarNuevoPersonaje
    */
-  public agregarNuevoPersonaje(argumento: Personaje) {
-    console.log("Agregando nuevo personaje");
-   // debugger; // like a handwritten breakPoint. I tested it in Edge and Chrome
-    this.personajes.push(argumento);
-  }
+  // public agregarNuevoPersonaje(argumento: Personaje) {
+  //   console.log("Agregando nuevo personaje");
+  //  // debugger; // like a handwritten breakPoint. I tested it in Edge and Chrome
+  //   // this.personajes.push(argumento);
+  // }
 }
