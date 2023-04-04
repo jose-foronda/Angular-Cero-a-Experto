@@ -7,6 +7,7 @@ inyección de dependencias.
 
 68. Centralizar el acceso de los personajes en el servicio
 
+69. Métodos en el servicio
 
 
 # Bases
